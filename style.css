@@ -186,12 +186,12 @@ a {
 }
 
 .flw-rqst {
-    border: 2px solid red;
+    border: 1px solid red;
     background: -webkit-linear-gradient(#aa1f1f, #eee);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 0.7rem;
-    padding: 5px;
+    padding: 7px;
     border-radius: 20px;
 }
 
@@ -201,12 +201,13 @@ footer {
     align-items: center;
     color: white;
     padding: 20px;
-    font-size: 1.2rem;
+
 
 }
 
-footer> :nth-child(2) {
+footer> :nth-child(1) {
     background: -webkit-linear-gradient(#eee, #ff0000);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    width: 50%;
 }
