@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #000000;
+}
+
+@media (min-width:50px) and (max-width:320px) {
+    body {
+        display: none;
+    }
+
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media (min-width:330px) and (max-width:530px) {
+    .header {
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+
+.instagram-box {
+    padding: 30px;
+
+}
+
+.instagram {
+    width: 30px;
+}
+
+
+.sf-logo {
+    width: 130px;
+}
+
+@media (min-width:330px) and (max-width:530px) {
+    .sf-logo {
+        width: 100px;
+    }
+
+}
+
+.gallery-container {
+
+    width: 99.6%;
+    margin: auto;
+
+}
+
+.gallery {
+    height: fit-content;
+    margin-top: 40px;
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 50px;
+    margin-bottom: 100px;
+}
+
+
+
+.fame-space-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-top: 30px;
+
+}
+
+.fame-space-text>h2 {
+    background: -webkit-linear-gradient(#eee, #aa1f1f);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 2.5rem;
+}
+
+.fame-space {
+    /* border: 1px solid red; */
+
+    background-position: center;
+    background-image: url("card-bg.jpg");
+    width: 220px;
+    height: 220px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 17px;
+    padding: 10px;
+    box-shadow: 0px -1px 20px 0px #d38383;
+    ;
+}
+
+
+@media (min-width:330px) and (max-width:530px) {
+    .fame-space {
+        display: flex;
+        width: 120px;
+        height: 120px;
+        background-position: -150px;
+        gap: 7px;
+    }
+
+}
+
+
+.fame-space:hover {
+
+    cursor: pointer;
+    transform: translateY(-20px);
+    transition: all 2s;
+
+
+
+}
+
+.dp {
+    width: 35px;
+    border-radius: 50px;
+}
+
+@media (min-width:330px) and (max-width:530px) {
+    .dp {
+        width: 25px;
+    }
+
+}
+
+
+.fav-img {
+    width: 130px;
+    border-radius: 20px;
+    border: 2px solid whitesmoke;
+    box-shadow: 1px 1px 20px 0px crimson;
+    ;
+}
+
+@media (min-width:330px) and (max-width:530px) {
+    .fav-img {
+        width: 80px;
+    }
+
+}
+
+
+.follow-btn {
+    padding: 5px 13px;
+    border-radius: 7px;
+    background-color: #0095F6;
+    border: 0px;
+    color: white;
+    font-size: 0.7rem;
+}
+
+@media (min-width:330px) and (max-width:530px) {
+    .follow-btn {
+        padding: 2px 8px;
+
+    }
+
+}
+
+
+.follow-btn:hover {
+    cursor: pointer;
+    background-color: #3b9ddf;
+}
+
+.flw-rqst {
+    border: 2px solid red;
+    background: -webkit-linear-gradient(#aa1f1f, #eee);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 0.7rem;
+    padding: 5px;
+    border-radius: 20px;
+}
