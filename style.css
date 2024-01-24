@@ -15,6 +15,10 @@ body {
 
 }
 
+a {
+    text-decoration: none;
+    color: whitesmoke;
+}
 
 .header {
     display: flex;
@@ -67,7 +71,7 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     border-radius: 50px;
-    margin-bottom: 100px;
+    margin-bottom: 80px;
 }
 
 
@@ -189,4 +193,20 @@ body {
     font-size: 0.7rem;
     padding: 5px;
     border-radius: 20px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 20px;
+    font-size: 1.2rem;
+
+}
+
+footer> :nth-child(2) {
+    background: -webkit-linear-gradient(#eee, #ff0000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
