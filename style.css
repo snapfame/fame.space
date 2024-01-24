@@ -114,8 +114,8 @@ a {
 @media (min-width:330px) and (max-width:530px) {
     .fame-space {
         display: flex;
-        width: 120px;
-        height: 120px;
+        width: 130px;
+        height: 130px;
         background-position: -150px;
         gap: 7px;
     }
@@ -168,12 +168,13 @@ a {
     background-color: #0095F6;
     border: 0px;
     color: white;
-    font-size: 0.7rem;
+    font-size: 0.8rem;
 }
 
 @media (min-width:330px) and (max-width:530px) {
     .follow-btn {
         padding: 2px 8px;
+        font-size: 0.4;
 
     }
 
