@@ -151,7 +151,7 @@ a {
     border-radius: 20px;
     border: 2px solid whitesmoke;
     box-shadow: 1px 1px 20px 0px crimson;
-    ;
+    height: 130px
 }
 
 @media (min-width:330px) and (max-width:530px) {
@@ -211,4 +211,11 @@ footer> :nth-child(1) {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     width: 50%;
+
+}
+
+span>a {
+    color: #b86e6e;
+    font-size: 0.8rem;
+    font-weight: 600;
 }
